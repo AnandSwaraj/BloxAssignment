@@ -1,4 +1,4 @@
-//Files are inside /example  folder
+//Files are inside    src/main/java/org/example      folder
 
 
 Q.1. Mandatory : Elaborate what your internship or academic projects were?
