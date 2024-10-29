@@ -1,6 +1,5 @@
 //Files are inside    src/main/java/org/example      folder
 
-
 Q.1. Mandatory : Elaborate what your internship or academic projects were?
 a. What did the system do?
 b. What other systems have you seen in the wild like that?
@@ -22,7 +21,6 @@ C. UI :- first I see the FIGMA design, and analyse which kind of FORMCONTROL, FO
 
 Backend :  First I read the requirements from the story very clearly , then make a basic request(sample payload) and response(which fields are required) . Then I make a sample query which will fetch those details . Once query is made , then I start making the controller, service and implementation layer code along with exception handling.
 After the api is made , I test several scenarios (like response is correct for a valid payload or not) . Also try to implement java 8 features while making apis
- 
 
 D.   I have gone to stackoverflow most of the time , when I was stuck (due to some error, or environment issues)
 Eg : Recently I was facing a issue, with heap size while compiling our angular app wit ng serve command.
@@ -36,7 +34,6 @@ Learning 2 : String is a Immutable class in java
 When I copy pasted and tried to modify that string, I came to know about immutability of String class
 
 Learning 3 : difference between == and .equals
-
 
 
 ===================================================
@@ -56,7 +53,6 @@ Sample query :-SELECT * FROM original_database.users EXCEPT SELECT * FROM copied
 EXCEPT is used to find any records that exist in the original database but not in the copied database. If the result set is empty, it means both databases have identical data.
 
 
-
 ==========================================================
 Q.3 Write a function to parse any valid json string into a corresponding Object, List, or Map object. You can use C,C++, Java, Scala, Kotlin, Python, Node. Note that the integer and
 floating point should be arbitrary precision.
@@ -64,8 +60,9 @@ floating point should be arbitrary precision.
 Ans :-I have used Jackson’s ObjectMapper to parse JSON strings into Java objects. For arbitrary precision, Jackson automatically converts JSON numbers to BigInteger and BigDecimal when configured with USE_BIG_DECIMAL_FOR_FLOATS.
 
 For using Jackson, we have add the dependency in pom.xml
+
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.15.2</version> <!-- Replace with the latest version -->
+    <version>2.15.2</version>
 </dependency>
