@@ -1,4 +1,4 @@
-//Files are inside this folder
+//Files are inside /example  folder
 
 
 Q.1. Mandatory : Elaborate what your internship or academic projects were?
